@@ -1,7 +1,4 @@
-/*
- * File: 100-print_comb3.c
- * Auth: Brennan D Baraban
- */
+
 
 #include <stdio.h>
 
@@ -23,8 +20,7 @@ int main(void)
 			putchar((digit2 % 10) + '0');
 
 			if (digit1 == 8 && digit2 == 9)
-				continue;
-			
+				continue;			
 			putchar(',');
 			putchar(' ');
 		}
