@@ -1,0 +1,1 @@
+creatig static files
